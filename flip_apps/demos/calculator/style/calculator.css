@@ -1,0 +1,90 @@
+html {
+    font-size: 10px
+}
+body{
+    font-size: 2.1rem;
+    font-family: Fira Sans;
+    background-color: #2b2b2b;
+    color: #FFFFFF;
+}
+
+#output {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    right: 2rem;
+    height: 12rem;
+    border: solid 2px white;
+    background-color: #f97c17;
+    text-align: right;
+}
+#functions {
+    text-align: center;
+    border: solid white 2px;
+    border-radius:4rem;
+    position: absolute;
+    left: 8rem;
+    top: 17rem;
+    width: 33%;
+    height: 8rem;
+    background-color: #f97c17
+}
+
+#plus {
+    position: absolute;
+    left: 33%;
+    width: 33%;
+    top: 0;
+    height: 33%;
+    text-align: center;
+}
+
+.middle {
+    position: absolute;
+    top: 33%;
+    height: 33%;
+    width: 33%;
+    text-align: center;
+}
+#divide {
+    position: absolute;
+    left: 0;
+}
+
+#equals {
+    left: 33%;
+    border: solid white 2px;
+    border-radius: 1.33333rem;
+}
+
+#times {
+    left: 66%;
+}
+
+#minus {
+    position: absolute;
+    left: 33%;
+    width: 33%;
+    bottom: 0;
+    height: 33%;
+    text-align: center;
+}
+
+#moreInput {
+    position: absolute;
+    top: 22rem;
+    left: 2rem;
+    height: 2rem;
+    right: 2rem;
+    font-size: 1.5rem;
+}
+
+#decimalPoint {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3.2rem;
+    border: solid white 2px;
+    text-align: center;
+    background-color: #f97c17
+}
